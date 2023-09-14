@@ -16,7 +16,7 @@ public class CourseController {
 
     @Autowired
     private CourseMapper courseMapper;
-    Gson gson = new Gson();
+    private Gson gson = new Gson();
 
 
     @GetMapping("/course")
